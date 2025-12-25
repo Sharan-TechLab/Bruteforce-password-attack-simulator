@@ -1,0 +1,23 @@
+2025-12-25 16:35:46,096 - WARNING -  * Debugger is active!
+2025-12-25 16:35:46,101 - INFO -  * Debugger PIN: 869-319-415
+2025-12-25 16:36:24,321 - INFO -  * Detected change in 'D:\\Project\\Bruteforce password attack simulator\\hydra_script.py', reloading
+2025-12-25 16:36:25,016 - WARNING -  * Debugger is active!
+2025-12-25 16:36:25,020 - INFO -  * Debugger PIN: 869-319-415
+2025-12-25 16:39:59,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-25 16:39:59,060 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-25 16:39:59,070 - INFO -  * Restarting with stat
+2025-12-25 16:39:59,708 - WARNING -  * Debugger is active!
+2025-12-25 16:39:59,717 - INFO -  * Debugger PIN: 714-437-571
+2025-12-25 16:41:28,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-25 16:41:28,645 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-25 16:41:28,647 - INFO -  * Restarting with stat
+2025-12-25 16:41:29,184 - WARNING -  * Debugger is active!
+2025-12-25 16:41:29,190 - INFO -  * Debugger PIN: 714-437-571
+2025-12-25 16:44:12,734 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-25 16:44:12,734 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-25 16:44:12,736 - INFO -  * Restarting with stat
+2025-12-25 16:44:13,217 - WARNING -  * Debugger is active!
+2025-12-25 16:44:13,222 - INFO -  * Debugger PIN: 714-437-571
