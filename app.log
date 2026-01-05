@@ -21,3 +21,134 @@
 2025-12-25 16:44:12,736 - INFO -  * Restarting with stat
 2025-12-25 16:44:13,217 - WARNING -  * Debugger is active!
 2025-12-25 16:44:13,222 - INFO -  * Debugger PIN: 714-437-571
+2025-12-25 16:54:47,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-25 16:54:47,222 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-25 16:54:47,225 - INFO -  * Restarting with stat
+2025-12-25 16:54:48,032 - WARNING -  * Debugger is active!
+2025-12-25 16:54:48,036 - INFO -  * Debugger PIN: 714-437-571
+2025-12-25 16:55:43,396 - INFO - 127.0.0.1 - - [25/Dec/2025 16:55:43] "GET / HTTP/1.1" 200 -
+2025-12-25 16:55:45,158 - INFO - 127.0.0.1 - - [25/Dec/2025 16:55:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 16:55:51,136 - INFO - 127.0.0.1 - - [25/Dec/2025 16:55:51] "GET /attack HTTP/1.1" 200 -
+2025-12-25 16:56:02,475 - INFO - Brute force attempt from IP 221.126.142.246: URL https://demo.owasp-juice.shop/#/, User sharanacharya707@gmail.com, Password 123456
+2025-12-25 16:56:02,976 - INFO - Brute force attempt from IP 182.63.8.105: URL https://demo.owasp-juice.shop/#/, User sharanacharya707@gmail.com, Password admin
+2025-12-25 16:56:03,477 - INFO - Brute force attempt from IP 83.112.41.69: URL https://demo.owasp-juice.shop/#/, User sharanacharya707@gmail.com, Password welcome
+2025-12-25 16:56:03,978 - INFO - Brute force attempt from IP 192.61.12.45: URL https://demo.owasp-juice.shop/#/, User sharanacharya707@gmail.com, Password qwerty
+2025-12-25 16:56:04,479 - INFO - Brute force attempt from IP 40.156.235.100: URL https://demo.owasp-juice.shop/#/, User sharanacharya707@gmail.com, Password admin123
+2025-12-25 16:56:04,982 - INFO - 127.0.0.1 - - [25/Dec/2025 16:56:04] "POST /attack HTTP/1.1" 200 -
+2025-12-25 16:56:12,852 - INFO - 127.0.0.1 - - [25/Dec/2025 16:56:12] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-25 16:58:53,223 - INFO - 127.0.0.1 - - [25/Dec/2025 16:58:53] "GET / HTTP/1.1" 200 -
+2025-12-25 16:59:12,638 - INFO - Login attempt from IP 15.198.6.135: Attempt 0, Password: admin123, Success: True
+2025-12-25 16:59:12,639 - INFO - 127.0.0.1 - - [25/Dec/2025 16:59:12] "POST / HTTP/1.1" 200 -
+2025-12-25 16:59:20,495 - INFO - 127.0.0.1 - - [25/Dec/2025 16:59:20] "GET /attack HTTP/1.1" 200 -
+2025-12-25 16:59:36,028 - INFO - Brute force attempt from IP 213.203.234.199: URL https://demo.owasp-juice.shop/#/, User sharan, Password 123456
+2025-12-25 16:59:36,529 - INFO - Brute force attempt from IP 109.112.47.146: URL https://demo.owasp-juice.shop/#/, User sharan, Password admin
+2025-12-25 16:59:37,030 - INFO - Brute force attempt from IP 138.155.219.6: URL https://demo.owasp-juice.shop/#/, User sharan, Password welcome
+2025-12-25 16:59:37,530 - INFO - Brute force attempt from IP 236.217.163.179: URL https://demo.owasp-juice.shop/#/, User sharan, Password qwerty
+2025-12-25 16:59:38,031 - INFO - Brute force attempt from IP 118.59.230.201: URL https://demo.owasp-juice.shop/#/, User sharan, Password admin123
+2025-12-25 16:59:38,533 - INFO - 127.0.0.1 - - [25/Dec/2025 16:59:38] "POST /attack HTTP/1.1" 200 -
+2025-12-25 16:59:42,994 - INFO - 127.0.0.1 - - [25/Dec/2025 16:59:42] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-25 17:00:02,835 - INFO - 127.0.0.1 - - [25/Dec/2025 17:00:02] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-25 17:00:17,109 - INFO - 127.0.0.1 - - [25/Dec/2025 17:00:17] "GET /attack HTTP/1.1" 200 -
+2025-12-25 17:00:18,201 - INFO - 127.0.0.1 - - [25/Dec/2025 17:00:18] "GET /attack HTTP/1.1" 200 -
+2025-12-25 17:00:19,395 - INFO - 127.0.0.1 - - [25/Dec/2025 17:00:19] "GET /attack HTTP/1.1" 200 -
+2025-12-25 17:00:20,339 - INFO - 127.0.0.1 - - [25/Dec/2025 17:00:20] "GET /attack HTTP/1.1" 200 -
+2026-01-05 17:46:38,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 17:46:38,300 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 17:46:38,308 - INFO -  * Restarting with stat
+2026-01-05 17:46:38,719 - WARNING -  * Debugger is active!
+2026-01-05 17:46:38,729 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 17:50:54,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 17:50:54,116 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 17:50:54,118 - INFO -  * Restarting with stat
+2026-01-05 17:50:55,333 - WARNING -  * Debugger is active!
+2026-01-05 17:50:55,338 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 17:52:29,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 17:52:29,412 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 17:52:29,415 - INFO -  * Restarting with stat
+2026-01-05 17:52:30,120 - WARNING -  * Debugger is active!
+2026-01-05 17:52:30,125 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 17:55:10,568 - INFO - 127.0.0.1 - - [05/Jan/2026 17:55:10] "GET / HTTP/1.1" 200 -
+2026-01-05 17:55:12,389 - INFO - 127.0.0.1 - - [05/Jan/2026 17:55:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-05 17:55:46,859 - INFO - 127.0.0.1 - - [05/Jan/2026 17:55:46] "GET /attack HTTP/1.1" 200 -
+2026-01-05 17:56:33,258 - INFO - Brute force attempt from IP 4.144.202.154: URL http://localhost:5000/, User sharan, Password 123456
+2026-01-05 17:56:33,760 - INFO - Brute force attempt from IP 74.11.154.134: URL http://localhost:5000/, User sharan, Password admin
+2026-01-05 17:56:34,261 - INFO - Brute force attempt from IP 90.93.26.29: URL http://localhost:5000/, User sharan, Password welcome
+2026-01-05 17:56:34,762 - INFO - Brute force attempt from IP 138.56.90.116: URL http://localhost:5000/, User sharan, Password qwerty
+2026-01-05 17:56:35,263 - INFO - Brute force attempt from IP 108.120.123.170: URL http://localhost:5000/, User sharan, Password admin123
+2026-01-05 17:56:35,765 - INFO - 127.0.0.1 - - [05/Jan/2026 17:56:35] "POST /attack HTTP/1.1" 200 -
+2026-01-05 17:57:16,617 - INFO - Brute force attempt from IP 104.121.66.252: URL http://localhost:5000/, User sharan, Password 123456
+2026-01-05 17:57:17,118 - INFO - Brute force attempt from IP 179.206.162.151: URL http://localhost:5000/, User sharan, Password admin
+2026-01-05 17:57:17,619 - INFO - Brute force attempt from IP 4.101.15.224: URL http://localhost:5000/, User sharan, Password welcome
+2026-01-05 17:57:18,121 - INFO - Brute force attempt from IP 170.20.79.61: URL http://localhost:5000/, User sharan, Password qwerty
+2026-01-05 17:57:18,621 - INFO - Brute force attempt from IP 94.36.173.135: URL http://localhost:5000/, User sharan, Password admin123
+2026-01-05 17:57:19,123 - INFO - 127.0.0.1 - - [05/Jan/2026 17:57:19] "POST /attack HTTP/1.1" 200 -
+2026-01-05 17:57:21,613 - INFO - 127.0.0.1 - - [05/Jan/2026 17:57:21] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 17:57:34,116 - INFO - 127.0.0.1 - - [05/Jan/2026 17:57:34] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 18:00:19,530 - INFO -  * Detected change in 'D:\\Project\\Bruteforce password attack simulator\\app.py', reloading
+2026-01-05 18:00:19,668 - INFO -  * Restarting with stat
+2026-01-05 18:00:20,520 - WARNING -  * Debugger is active!
+2026-01-05 18:00:20,527 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 18:00:50,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 18:00:50,424 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 18:00:50,427 - INFO -  * Restarting with stat
+2026-01-05 18:00:50,979 - WARNING -  * Debugger is active!
+2026-01-05 18:00:50,983 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 18:01:07,956 - INFO - 127.0.0.1 - - [05/Jan/2026 18:01:07] "GET / HTTP/1.1" 200 -
+2026-01-05 18:01:21,925 - INFO - 127.0.0.1 - - [05/Jan/2026 18:01:21] "GET /attack HTTP/1.1" 200 -
+2026-01-05 18:01:45,695 - INFO - Login attempt from IP 173.181.77.153: Attempt 1, Password: hello.123, Success: False
+2026-01-05 18:01:45,696 - INFO - 127.0.0.1 - - [05/Jan/2026 18:01:45] "POST / HTTP/1.1" 200 -
+2026-01-05 18:02:09,133 - INFO - Login attempt from IP 7.176.71.196: Attempt 2, Password: hello.123, Success: False
+2026-01-05 18:02:09,135 - INFO - 127.0.0.1 - - [05/Jan/2026 18:02:09] "POST / HTTP/1.1" 200 -
+2026-01-05 18:02:14,619 - INFO - 127.0.0.1 - - [05/Jan/2026 18:02:14] "GET /attack HTTP/1.1" 200 -
+2026-01-05 18:02:29,073 - INFO - Brute force attempt from IP 187.136.235.73: URL http://localhost:5000/, User sharan, Password 123456
+2026-01-05 18:02:29,575 - INFO - Brute force attempt from IP 194.163.57.215: URL http://localhost:5000/, User sharan, Password admin
+2026-01-05 18:02:30,076 - INFO - Brute force attempt from IP 238.44.48.84: URL http://localhost:5000/, User sharan, Password welcome
+2026-01-05 18:02:30,576 - INFO - Brute force attempt from IP 75.55.177.125: URL http://localhost:5000/, User sharan, Password qwerty
+2026-01-05 18:02:31,077 - INFO - Brute force attempt from IP 203.241.14.169: URL http://localhost:5000/, User sharan, Password admin123
+2026-01-05 18:02:31,580 - INFO - 127.0.0.1 - - [05/Jan/2026 18:02:31] "POST /attack HTTP/1.1" 200 -
+2026-01-05 18:02:34,566 - INFO - 127.0.0.1 - - [05/Jan/2026 18:02:34] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 18:12:13,431 - INFO - 127.0.0.1 - - [05/Jan/2026 18:12:13] "GET / HTTP/1.1" 200 -
+2026-01-05 18:12:48,595 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 18:12:48,596 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 18:12:48,597 - INFO -  * Restarting with stat
+2026-01-05 18:12:49,155 - WARNING -  * Debugger is active!
+2026-01-05 18:12:49,160 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 18:13:07,577 - INFO - 127.0.0.1 - - [05/Jan/2026 18:13:07] "GET / HTTP/1.1" 200 -
+2026-01-05 18:13:09,111 - INFO - 127.0.0.1 - - [05/Jan/2026 18:13:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-05 18:13:25,053 - INFO - Login attempt from IP 238.83.149.154: Attempt 0, Password: admin123, Success: True
+2026-01-05 18:13:25,055 - INFO - 127.0.0.1 - - [05/Jan/2026 18:13:25] "POST / HTTP/1.1" 200 -
+2026-01-05 18:13:44,828 - INFO - 127.0.0.1 - - [05/Jan/2026 18:13:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-05 18:14:07,408 - INFO - 127.0.0.1 - - [05/Jan/2026 18:14:07] "GET /attack HTTP/1.1" 200 -
+2026-01-05 18:14:17,617 - INFO - Brute force attempt from IP 19.23.115.112: URL http://localhost:5000/, User admin, Password 123456
+2026-01-05 18:14:18,119 - INFO - Brute force attempt from IP 138.109.86.25: URL http://localhost:5000/, User admin, Password admin
+2026-01-05 18:14:18,620 - INFO - Brute force attempt from IP 252.192.148.202: URL http://localhost:5000/, User admin, Password welcome
+2026-01-05 18:14:19,121 - INFO - Brute force attempt from IP 201.45.213.24: URL http://localhost:5000/, User admin, Password qwerty
+2026-01-05 18:14:19,622 - INFO - Brute force attempt from IP 77.85.9.70: URL http://localhost:5000/, User admin, Password admin123
+2026-01-05 18:14:20,124 - INFO - 127.0.0.1 - - [05/Jan/2026 18:14:20] "POST /attack HTTP/1.1" 200 -
+2026-01-05 18:14:25,400 - INFO - 127.0.0.1 - - [05/Jan/2026 18:14:25] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 18:14:35,864 - INFO - 127.0.0.1 - - [05/Jan/2026 18:14:35] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 18:14:57,050 - INFO - 127.0.0.1 - - [05/Jan/2026 18:14:57] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-01-05 18:15:17,077 - INFO -  * Detected change in 'D:\\Project\\Bruteforce password attack simulator\\app.py', reloading
+2026-01-05 18:15:17,208 - INFO -  * Restarting with stat
+2026-01-05 18:18:01,023 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 18:18:01,023 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-05 18:18:01,028 - INFO -  * Restarting with stat
+2026-01-05 18:18:01,615 - WARNING -  * Debugger is active!
+2026-01-05 18:18:01,619 - INFO -  * Debugger PIN: 714-437-571
+2026-01-05 18:18:17,174 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:17] "GET / HTTP/1.1" 200 -
+2026-01-05 18:18:18,552 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-05 18:18:22,053 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:22] "GET /attack HTTP/1.1" 200 -
+2026-01-05 18:18:25,861 - INFO - Brute force attempt from IP 236.17.131.26: URL http://localhost:5000/, User admin, Password 123456
+2026-01-05 18:18:26,361 - INFO - Brute force attempt from IP 231.79.49.119: URL http://localhost:5000/, User admin, Password admin
+2026-01-05 18:18:26,862 - INFO - Brute force attempt from IP 39.139.74.227: URL http://localhost:5000/, User admin, Password welcome
+2026-01-05 18:18:27,363 - INFO - Brute force attempt from IP 120.51.220.82: URL http://localhost:5000/, User admin, Password qwerty
+2026-01-05 18:18:27,863 - INFO - Brute force attempt from IP 40.186.222.96: URL http://localhost:5000/, User admin, Password admin123
+2026-01-05 18:18:28,366 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:28] "POST /attack HTTP/1.1" 200 -
+2026-01-05 18:18:31,169 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:31] "GET /dashboard HTTP/1.1" 200 -

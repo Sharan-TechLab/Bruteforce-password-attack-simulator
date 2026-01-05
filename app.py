@@ -44,7 +44,8 @@ def login():
                 "ip": ip,
                 "attempt": attempts,
                 "password": password,
-                "success": False
+                "success": False,
+                "risk": "LOW" if attempts < 3 else "MEDIUM" if attempts < 5 else "HIGH"
             }
 
             if password_hash == CORRECT_HASH:
@@ -78,17 +79,44 @@ def attack():
             return render_template("attack.html", result=result)
 
         # Simulate attack (for demo only)
-        for password in passwords:
+        for i, password in enumerate(passwords):
             ip = simulate_ip()
             logging.info(f"Brute force attempt from IP {ip}: URL {url}, User {username}, Password {password}")
             time.sleep(0.5)  # Simulate delay
-            if password == CORRECT_PASSWORD:
+            success = password == CORRECT_PASSWORD
+            risk = "LOW" if i < 3 else "MEDIUM" if i < 5 else "HIGH"
+            attack_log = {
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "ip": ip,
+                "attempt": i + 1,
+                "password": password,
+                "success": success,
+                "risk": risk
+            }
+            attack_logs.append(attack_log)
+            if success:
                 result = f"Password cracked: {password}"
                 break
         else:
             result = "No password found in list."
 
     return render_template("attack.html", result=result)
+
+@app.route("/dashboard")
+def dashboard():
+    total_attempts = len(attack_logs)
+    successful_attempts = sum(1 for log in attack_logs if log["success"])
+    failed_attempts = total_attempts - successful_attempts
+    unique_ips = len(set(log["ip"] for log in attack_logs))
+    risk = "HIGH" if failed_attempts > 10 else "MEDIUM" if failed_attempts > 5 else "LOW"
+
+    return render_template("dashboard.html",
+                           total_attempts=total_attempts,
+                           successful_attempts=successful_attempts,
+                           failed_attempts=failed_attempts,
+                           unique_ips=unique_ips,
+                           risk=risk,
+                           logs=attack_logs[-20:])  # Show last 20 logs
 
 if __name__ == "__main__":
     app.run(debug=True)
