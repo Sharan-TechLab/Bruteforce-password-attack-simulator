@@ -37,7 +37,7 @@
         input, select {
             width: 100%;
             padding: 15px;
-            margin: 10px 0;
+            margin: 10px -20px;
             border: 2px solid #00ff00;
             border-radius: 5px;
             background: #000;
@@ -99,12 +99,6 @@
         <form method="POST" id="attackForm">
             <input type="url" name="url" placeholder="Target URL (e.g., http://localhost:5000)" required>
             <input type="text" name="username" placeholder="Username" required>
-            <select name="threads">
-                <option value="1">1 Thread</option>
-                <option value="2">2 Threads</option>
-                <option value="3">3 Threads</option>
-                <option value="5">5 Threads</option>
-            </select>
             <button type="submit">Start Attack Simulation</button>
         </form>
         <div class="progress">

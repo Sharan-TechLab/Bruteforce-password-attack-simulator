@@ -152,3 +152,42 @@
 2026-01-05 18:18:27,863 - INFO - Brute force attempt from IP 40.186.222.96: URL http://localhost:5000/, User admin, Password admin123
 2026-01-05 18:18:28,366 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:28] "POST /attack HTTP/1.1" 200 -
 2026-01-05 18:18:31,169 - INFO - 127.0.0.1 - - [05/Jan/2026 18:18:31] "GET /dashboard HTTP/1.1" 200 -
+2026-01-06 12:11:21,453 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-06 12:11:21,454 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-06 12:11:21,461 - INFO -  * Restarting with stat
+2026-01-06 12:11:21,885 - WARNING -  * Debugger is active!
+2026-01-06 12:11:21,916 - INFO -  * Debugger PIN: 714-437-571
+2026-01-06 12:11:45,290 - INFO - 127.0.0.1 - - [06/Jan/2026 12:11:45] "GET / HTTP/1.1" 200 -
+2026-01-06 12:11:47,283 - INFO - 127.0.0.1 - - [06/Jan/2026 12:11:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-06 12:11:55,498 - INFO - Login attempt from IP 253.224.213.4: Attempt 1, Password: sharan, Success: False
+2026-01-06 12:11:55,500 - INFO - 127.0.0.1 - - [06/Jan/2026 12:11:55] "POST / HTTP/1.1" 200 -
+2026-01-06 12:12:00,003 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:00] "GET /attack HTTP/1.1" 200 -
+2026-01-06 12:12:04,025 - INFO - Brute force attempt from IP 68.30.173.248: URL http://localhost:5000/, User admin, Password 123456
+2026-01-06 12:12:04,526 - INFO - Brute force attempt from IP 132.65.166.39: URL http://localhost:5000/, User admin, Password admin
+2026-01-06 12:12:05,027 - INFO - Brute force attempt from IP 81.180.72.241: URL http://localhost:5000/, User admin, Password welcome
+2026-01-06 12:12:05,528 - INFO - Brute force attempt from IP 19.183.44.165: URL http://localhost:5000/, User admin, Password qwerty
+2026-01-06 12:12:06,029 - INFO - Brute force attempt from IP 26.226.67.215: URL http://localhost:5000/, User admin, Password admin123
+2026-01-06 12:12:06,529 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:06] "POST /attack HTTP/1.1" 200 -
+2026-01-06 12:12:17,043 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:17] "GET /dashboard HTTP/1.1" 200 -
+2026-01-06 12:12:29,286 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:29] "GET / HTTP/1.1" 200 -
+2026-01-06 12:12:44,099 - INFO - Login attempt from IP 34.27.207.53: Attempt 2, Password: admin@123, Success: False
+2026-01-06 12:12:44,100 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:44] "POST / HTTP/1.1" 200 -
+2026-01-06 12:12:53,617 - INFO - Login attempt from IP 68.255.140.60: Attempt 3, Password: admin@123, Success: False
+2026-01-06 12:12:53,619 - INFO - 127.0.0.1 - - [06/Jan/2026 12:12:53] "POST / HTTP/1.1" 200 -
+2026-01-06 12:13:15,118 - INFO - Login attempt from IP 219.186.31.19: Attempt 4, Password: admin@123, Success: False
+2026-01-06 12:13:15,119 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:15] "POST / HTTP/1.1" 200 -
+2026-01-06 12:13:17,077 - INFO - Login attempt from IP 149.247.117.39: Attempt 5, Password: admin@123, Success: False
+2026-01-06 12:13:17,079 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:17] "POST / HTTP/1.1" 200 -
+2026-01-06 12:13:22,386 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:22] "GET / HTTP/1.1" 200 -
+2026-01-06 12:13:23,814 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-06 12:13:50,243 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-06 12:13:50,244 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-06 12:13:50,248 - INFO -  * Restarting with stat
+2026-01-06 12:13:50,750 - WARNING -  * Debugger is active!
+2026-01-06 12:13:50,757 - INFO -  * Debugger PIN: 714-437-571
+2026-01-06 12:13:53,361 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:53] "GET / HTTP/1.1" 200 -
+2026-01-06 12:13:55,083 - INFO - 127.0.0.1 - - [06/Jan/2026 12:13:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-06 12:14:13,583 - INFO - Login attempt from IP 77.234.75.107: Attempt 0, Password: admin123, Success: True
+2026-01-06 12:14:13,584 - INFO - 127.0.0.1 - - [06/Jan/2026 12:14:13] "POST / HTTP/1.1" 200 -

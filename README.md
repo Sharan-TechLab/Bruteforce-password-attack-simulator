@@ -34,7 +34,6 @@ for educational and cybersecurity learning purposes.
 2. Access the login simulator at `http://localhost:5000/`
 3. Use the attack simulator at `http://localhost:5000/attack`
 4. View the security dashboard at `http://localhost:5000/dashboard`
-5. Run the Hydra simulation: `python hydra_script.py <url> <username> password.txt`
 
 ## Educational Goals
 - Understand authentication security mechanisms
